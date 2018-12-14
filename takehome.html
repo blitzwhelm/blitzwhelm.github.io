@@ -1,0 +1,53 @@
+
+<html>
+<head>
+<title>Take Home Activity</title>
+</head>
+
+<script language ="Javascript">
+
+function paintIt()
+{
+
+    var personame = prompt("Enter Your name","Juan Dela Cruz");
+	var age = parseInt(prompt("Enter Your Birthyear","2018"));
+	color = prompt("Enter the color you want on the Background???","White");
+	tekcolor = prompt("Enter the color you want on Text???","Black");
+    var total=2018-age;
+	
+
+document.write('</br><h1>Hi ',personame,'!<br><br></h1>');
+
+document.write('<h1>Your age is ',total,'!<h1>');
+
+document.body.style.backgroundColor = color;
+document.body.style.color =tekcolor;
+document.body.style.textAlign = "center";
+
+
+ 
+}
+
+
+
+</script>
+
+
+<body onload="paintIt()" text-align="center">
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<p id="demo">Click me.</p>
+
+
+	</body>
+</html>
